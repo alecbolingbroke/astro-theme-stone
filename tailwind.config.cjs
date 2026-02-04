@@ -10,11 +10,32 @@ module.exports = {
       current: 'currentColor',
       transparent: 'transparent',
       white: '#ffffff',
-      primary: colors.stone,
+
+      primary: {
+        50: '#eef8fd',
+        100: '#d7eefb',
+        200: '#b0def6',
+        300: '#7cc8ef',
+        400: '#52b5e9',
+        500: '#39abe2', // your brand blue
+        600: '#2d96f0',
+        700: '#1f7fc9',
+        800: '#1868a3',
+        900: '#145681',
+        950: '#0e3a57',
+      },
+
+      charcoal: '#3c3c3b',
+      gray: '#dadad9',
+
+      stone: colors.stone,
     },
+
+
     fontFamily: {
       sans: ['Inter', 'sans-serif'],
     },
+
     fontSize: {
       xs: ['0.75rem', '1rem'],
       sm: ['0.875rem', '1.25rem'],
